@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Record Validation">3856ce26dba30010c3ea48703996197c</copied_from>
+        <description>Validate record from table 'x_58872_needit_needit' matches the following condition:
+Requested for = {{Step 1: Impersonate.User}}
+and Requested for email = {{Step 1: Impersonate.User.Email}}
+and Request type = Legal
+and What needed = Legal 1
+and When needed is not empty</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>fa5f466edba30010c3ea4870399619be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_fa5f466edba30010c3ea4870399619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:38:57</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Past">7a5f026adba30010c3ea4870399619bb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=fa5f466edba30010c3ea4870399619be"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fa5f466edba30010c3ea4870399619be</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>365f466edba30010c3ea4870399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fa5f466edba30010c3ea4870399619be</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>725f466edba30010c3ea4870399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <value/>
+        <variable display_value="">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fa5f466edba30010c3ea4870399619be</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>ba5f466edba30010c3ea4870399619cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <value>u_requested_for={{step['725f026adba30010c3ea4870399619bf'].user}}^u_requested_for_email={{step['725f026adba30010c3ea4870399619bf'].user.email}}^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value>
+        <variable display_value="">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fa5f466edba30010c3ea4870399619be</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>be5f466edba30010c3ea4870399619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fa5f466edba30010c3ea4870399619be</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>f65f466edba30010c3ea4870399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=fa5f466edba30010c3ea4870399619be"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>fa5f466edba30010c3ea4870399619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>f25f466edba30010c3ea4870399619ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>u_requested_for={{step['725f026adba30010c3ea4870399619bf'].user}}^u_requested_for_email={{step['725f026adba30010c3ea4870399619bf'].user.email}}^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>fa5f466edba30010c3ea4870399619be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:29:22</sys_created_on>
+        <sys_id>325f466edba30010c3ea4870399619ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:29:22</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['fe5f466edba30010c3ea4870399619b3'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>952671e1db5353807e55d5b0cf96195b</instance_id>
+        <instance_name>dev64787</instance_name>
+        <name>sys_atf_step_fa5f466edba30010c3ea4870399619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Record Validation">3856ce26dba30010c3ea48703996197c</copied_from><description>Validate record from table 'x_58872_needit_needit' matches the following condition:
+Requested for = {{Step 1: Impersonate.User}}
+and Requested for email = {{Step 1: Impersonate.User.Email}}
+and Request type = Legal
+and What needed = Legal 1
+and When needed is not empty</description><display_name>Record Validation</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>fa5f466edba30010c3ea4870399619be</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Validation</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_fa5f466edba30010c3ea4870399619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:38:57</sys_updated_on><table>x_58872_needit_needit</table><test display_value="When needed - Past">7a5f026adba30010c3ea4870399619bb</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=fa5f466edba30010c3ea4870399619be"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fa5f466edba30010c3ea4870399619be</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>365f466edba30010c3ea4870399619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><value>1</value><variable display_value="">cbddfa135320220002c6435723dc3415</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fa5f466edba30010c3ea4870399619be</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>725f466edba30010c3ea4870399619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><value/><variable display_value="">52ed1e5b5360220002c6435723dc3421</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fa5f466edba30010c3ea4870399619be</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>ba5f466edba30010c3ea4870399619cd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><value>u_requested_for={{step['725f026adba30010c3ea4870399619bf'].user}}^u_requested_for_email={{step['725f026adba30010c3ea4870399619bf'].user.email}}^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value><variable display_value="">ff6e125353a0220002c6435723dc3442</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fa5f466edba30010c3ea4870399619be</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>be5f466edba30010c3ea4870399619cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><value>record_validated</value><variable display_value="">67400008676003007ba405225685efa4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fa5f466edba30010c3ea4870399619be</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>f65f466edba30010c3ea4870399619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="">6aad5a575360220002c6435723dc34b0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=fa5f466edba30010c3ea4870399619be"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>fa5f466edba30010c3ea4870399619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>f25f466edba30010c3ea4870399619ce</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>u_requested_for={{step['725f026adba30010c3ea4870399619bf'].user}}^u_requested_for_email={{step['725f026adba30010c3ea4870399619bf'].user.email}}^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>fa5f466edba30010c3ea4870399619be</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-17 15:29:22</sys_created_on><sys_id>325f466edba30010c3ea4870399619ce</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-17 15:29:22</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>{{step['fe5f466edba30010c3ea4870399619b3'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1804476162</payload_hash>
+        <record_name>Record Validation</record_name>
+        <reverted_from/>
+        <source>1ea30662dba30010c3ea487039961956</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:38:57</sys_created_on>
+        <sys_id>1b815aeedba30010c3ea4870399619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170e925db6f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:38:57</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>93815aee69a30010b213b08e5a2bd1cc</update_guid>
+        <update_guid_history>93815aee69a30010b213b08e5a2bd1cc:1804476162,3e5f466e3aa300100e553205d22de0d5:806469496,725f466ed1a30010dc516efd34b840d0:284777343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-17 15:38:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1f396c36c7bc45588d789f8e12a59440</sys_id>
+        <sys_metadata>fa5f466edba30010c3ea4870399619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_fa5f466edba30010c3ea4870399619be</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_fa5f466edba30010c3ea4870399619be">1b815aeedba30010c3ea4870399619cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-17 15:38:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
